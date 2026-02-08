@@ -1,7 +1,7 @@
 import { useCallback } from "react";
 import Particles from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
-import type { Engine, Container } from "@tsparticles/engine";
+import { Engine, Container } from "@tsparticles/engine";
 
 
 const ParticleEffect: React.FC= () => {
