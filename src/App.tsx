@@ -6,6 +6,8 @@ import Projects from './pages/Projects';
 import Gallery from './pages/Gallery';
 import { useEffect, useState } from 'react';
 import Footer from './components/common/Footer';
+import Achievements from './pages/Achievement';
+
 
 function App() {
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
@@ -40,6 +42,8 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/activities" element={<Activities />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/achievements" element={<Achievements />} />
+
         </Routes>
         <Footer/>
       </Router>
