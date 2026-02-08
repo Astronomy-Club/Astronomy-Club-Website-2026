@@ -19,8 +19,6 @@
     "react-router-dom": "^7.13.0",
     "router": "^2.2.0",
     "tailwindcss": "^4.1.18",
-    "@tsparticles/react": "2.12.0",
-    "@tsparticles/slim": "2.12.0",
     "tsparticles": "2.12.0",
     "tsparticles-slim": "2.12.0"
   },
