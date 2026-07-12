@@ -16,6 +16,9 @@ function Home() {
       <Link to = "/activities">
         <button>Activities</button>
       </Link>
+      <Link to ="/OurTeam">
+      <button>Our Team</button>
+      </Link>
     </>
   )
 }

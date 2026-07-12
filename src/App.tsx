@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Activities from './pages/Activities';
 import Projects from './pages/Projects';
 import Gallery from './pages/Gallery';
+import OurTeam from './pages/OurTeam';
 import { useEffect, useState } from 'react';
 import Footer from './components/common/Footer';
 
@@ -40,6 +41,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/activities" element={<Activities />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/OurTeam" element={<OurTeam/>}/>
         </Routes>
         <Footer/>
       </Router>

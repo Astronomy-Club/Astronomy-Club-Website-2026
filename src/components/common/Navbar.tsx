@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
           { name: "Activities", href: "/activities" },
           { name: "Gallery", href: "/gallery" },
           { name: "Achievements", href: "/achievements" },
-          { name: "Our Team", href: "/team" },
+          { name: "Our Team", href: "/OurTeam" },
         ].map((item) => (
           <div
             key={item.name}
